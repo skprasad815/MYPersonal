@@ -1,0 +1,13 @@
+package OopsConcept;
+
+public class Smartphone extends Mobilephone{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		public void Whatsapp();
+		{
+			System.out.println("whatsapp");
+		}
+	}
+
+}
