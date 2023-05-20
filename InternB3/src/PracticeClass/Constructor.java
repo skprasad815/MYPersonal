@@ -3,7 +3,7 @@ package PracticeClass;
 
 	class Employees {
 		// First constructor
-		    Employees(String s, int i){
+		 Employees(String s, int i){
 		        System.out.println("The name of the first employee is : " + s);
 		        System.out.println("The id of the first employee is : " + i);
 		    }

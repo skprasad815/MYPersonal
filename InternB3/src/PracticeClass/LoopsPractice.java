@@ -23,11 +23,11 @@ public class LoopsPractice {
       // First 4 even numbers are - 0 2 4 6
 
       // Practice Problem 3
-//      int n = 5;
-//      //for(int i=0; i<10; i++) - Goes from i=0 to i=9
-//      for(int i=1;i<=10;i++){
-//          System.out.printf("%d X %d = %d\n", n, i, n*i);
-//      }
+      int n = 8;
+      //for(int i=0; i<10; i++) - Goes from i=0 to i=9
+      for(int i=1;i<=10;i++){
+        System.out.printf("%d X %d = %d\n", n, i, n*i);
+    }
 
       // Practice Problem 4
 //      int n = 10;
@@ -49,14 +49,14 @@ public class LoopsPractice {
 //      System.out.println(factorial);
 
       //Practice Problem 9
-   int n = 5;
-     int sum = 0;
-     //for(int i=0; i<10; i++) - Goes from i=0 to i=9
-      for(int i=1;i<=10;i++){
-          sum += n*i;
-      }
-     System.out.println(sum);
-
+		
+		  int n1 = 5; int sum = 0;
+		   //for(int i=0; i<10; i++) - Goes from i=0 to i=9
+		  for(int i=1;i<=10;i++){ 
+		  sum += n1*i;
+		   }
+		    System.out.println(sum);
+		 
   
 	}
 

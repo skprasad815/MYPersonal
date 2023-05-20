@@ -10,7 +10,9 @@ public class Methodspractice {
 	    }
 
 	    static void pattern1(int n) {
-	        for (int i = 0; i < n; i++) {
+	    	for (int i =0; i <=n; i++)
+	    	//	for (int i = n; i >=0; i--)  // for reverse print
+	        {
 	            for (int j = 0; j < i + 1; j++) {
 	                System.out.print("*");
 	            }
@@ -63,11 +65,12 @@ public class Methodspractice {
 
 	    public static void main(String[] args) {
 	        // Problem 1
-	        // multiplication(7);
+	      multiplication(10);
 
 	        // Problem 2
 	        // pattern1(9);
 
+	      pattern1(5);
 	        // Problem 3
 	        // int c = sumRec(4);
 	        // System.out.println(c);

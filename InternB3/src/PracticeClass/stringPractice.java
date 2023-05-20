@@ -31,6 +31,44 @@ public class stringPractice {
 		
 		System.out.println(letter);
 		
-	}
+		
 
-}
+		// for * pattern
+		  for(int x=0; x<5; x++) { 
+		  //inner loop for columns
+		   for(int y=0; y<=x; y++) {
+		  //To prints stars 
+		  System.out.print("* "); } 
+		  //Cursor goes to the new line
+		//  after printing each line. 
+		  System.out.println(); }
+		 
+		
+		  
+		  //Fibonacci series
+		  int a=1, b=2, c;
+		  
+		  System.out.print(a +" "+ b);
+		  for(int i=0;i<=10;i++) {
+			 
+			  c=a+b;
+			  a=b;
+			  b=c;
+		 
+		System.out.print(" "+c+" ");
+		  }
+		
+		// using subString  
+		  String str2 = "qwerty";
+			System.out.println(str2.substring(1, 5));
+			
+
+			
+			
+			}
+		
+		}	
+		
+	
+
+        

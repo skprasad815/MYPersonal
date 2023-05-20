@@ -74,7 +74,7 @@ System.out.println(sum);*/
 		System.out.println("the multiplication of nos");
 		System.out.println(c);
 */
-/*System.out.println("percentage of the student is");*/
+
 Scanner sc=new Scanner(System.in);
 
 float math,science,social,english,hindi;
